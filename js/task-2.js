@@ -1,18 +1,18 @@
-function countProps(object) {
-  let propCount = 0;
-
-  for (const key in object) {
-    if (object.hasOwnProperty(key)) {
-      propCount += 1;
-    }
-  }
-
-  return propCount;
+function getAllPropValues(propName) {
+  const products = [
+    { name: "Radar", price: 1300, quantity: 4 },
+    { name: "Scanner", price: 2700, quantity: 3 },
+    { name: "Droid", price: 400, quantity: 7 },
+    { name: "Grip", price: 1200, quantity: 9 },
+  ];
+ 
+  
+    const key = Object.keys(products);
+  return key;
 }
 
 
-
-
-countProps({});//0
-countProps({ name: "Mango", age: 2 });//2;
-countProps({ mail: "poly@mail.com", isOnline: true, score: 500 });//3
+ getAllPropValues("name");//["Radar", "Scanner", "Droid", "Grip"]
+ getAllPropValues("quantity");// [4, 3, 7, 9]
+ getAllPropValues("price");//[1300, 2700, 400, 1200]
+ getAllPropValues("category");// []
