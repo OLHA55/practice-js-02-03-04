@@ -53,7 +53,7 @@
 //    { name: "Droid", price: 400, quantity: 7 },
 //    { name: "Grip", price: 1200, quantity: 9 },
 //  ];
- //    const res = []; // Объявляем массив с результатами
+ //    const res = []; // 
 //      products.forEach((item) => { // Бежим по массиву данных
  //       if (item.hasOwnProperty(propName)) { // Проверяем у элемента наличие ключа
 //            res.push(item[propName.price]) // Если есть добавляем к результату
@@ -96,3 +96,56 @@
 // console.log(isEnoughCapacity({ apples: 4, grapes: 6, lime: 16 }, 12));// false
 // console.log(isEnoughCapacity({ apples: 1, lime: 5, tomatoes: 3 }, 14));// true
 // console.log(isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)); //false
+
+function calcAverageCalories(days) {
+  
+
+      return sum.res;
+}
+
+  
+
+  
+              
+
+
+      
+  
+         
+
+
+
+
+
+ 
+
+
+
+
+
+console.log(
+  calcAverageCalories([
+    { day: "monday", calories: 3010 },
+    { day: "tuesday", calories: 3200 },
+    { day: "wednesday", calories: 3120 },
+    { day: "thursday", calories: 2900 },
+    { day: "friday", calories: 3450 },
+    { day: "saturday", calories: 3280 },
+    { day: "sunday", calories: 3300 }
+  ])
+);
+
+console.log(
+  calcAverageCalories([
+    { day: "monday", calories: 2040 },
+    { day: "tuesday", calories: 2270 },
+    { day: "wednesday", calories: 2420 },
+    { day: "thursday", calories: 1900 },
+    { day: "friday", calories: 2370 },
+    { day: "saturday", calories: 2280 },
+    { day: "sunday", calories: 2610 }
+  ])
+); 
+    console.log(
+      calcAverageCalories([])
+    );
