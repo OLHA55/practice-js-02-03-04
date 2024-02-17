@@ -97,55 +97,58 @@
 // console.log(isEnoughCapacity({ apples: 1, lime: 5, tomatoes: 3 }, 14));// true
 // console.log(isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)); //false
 
-function calcAverageCalories(days) {
-  
-
-      return sum.res;
-}
-
-  
-
-  
-              
-
-
-      
-  
-         
-
-
-
-
-
- 
-
-
-
-
-
-console.log(
-  calcAverageCalories([
+function calcAverageCalories(average) {
+  const menu = [
     { day: "monday", calories: 3010 },
     { day: "tuesday", calories: 3200 },
     { day: "wednesday", calories: 3120 },
     { day: "thursday", calories: 2900 },
     { day: "friday", calories: 3450 },
     { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 }
-  ])
-);
+    { day: "sunday", calories: 3300 },
+  
+  ];
+  const res = [];
+  menu.forEach((calories) => {
+    if (calories.hasOwnProperty(average)) {
+      res.pach(calories[average])
+    }
+  })
+  return res;
+}
 
-console.log(
-  calcAverageCalories([
-    { day: "monday", calories: 2040 },
-    { day: "tuesday", calories: 2270 },
-    { day: "wednesday", calories: 2420 },
-    { day: "thursday", calories: 1900 },
-    { day: "friday", calories: 2370 },
-    { day: "saturday", calories: 2280 },
-    { day: "sunday", calories: 2610 }
-  ])
-); 
-    console.log(
-      calcAverageCalories([])
-    );
+console.log(calcAverageCalories("calories"));
+
+
+
+
+
+
+//   let total = 0
+  
+//   for (const key of menu.calories) {
+//     total += menu[key] / 7;
+//     return total;
+//   }
+// } 
+  
+   
+  
+    
+  
+
+
+
+   
+
+// console.log(
+//   calcAverageCalories([
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//   ])
+// ); // 3180
