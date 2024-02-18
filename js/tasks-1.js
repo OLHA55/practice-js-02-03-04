@@ -97,58 +97,72 @@
 // console.log(isEnoughCapacity({ apples: 1, lime: 5, tomatoes: 3 }, 14));// true
 // console.log(isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)); //false
 
-function calcAverageCalories(average) {
-  const menu = [
+
+//   const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   for (const item of products)
+//     if (item.name === productName)
+//       return item.price;
+//   return null;
+// }
+
+// console.log(getProductPrice("Droid"));
+
+function calcAverageCalories(days) {
+  let key = Object.keys(days.calories);
+    for (let key in days.calories) {
+      total += days.calories[key] + total;
+      
+    }
+    return total;
+  }
+  
+  
+ 
+
+
+
+console.log(
+  calcAverageCalories([
     { day: "monday", calories: 3010 },
     { day: "tuesday", calories: 3200 },
     { day: "wednesday", calories: 3120 },
     { day: "thursday", calories: 2900 },
     { day: "friday", calories: 3450 },
     { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 },
-  
-  ];
-  const res = [];
-  menu.forEach((calories) => {
-    if (calories.hasOwnProperty(average)) {
-      res.pach(calories[average])
-    }
-  })
-  return res;
-}
-
-console.log(calcAverageCalories("calories"));
-
-
-
-
-
-
-//   let total = 0
-  
-//   for (const key of menu.calories) {
-//     total += menu[key] / 7;
-//     return total;
-//   }
-// } 
-  
-   
+    { day: "sunday", calories: 3300 }
+  ])
+);
   
     
-  
+
+// const profile = {
+//     username: "Jacob",
+//   playTime: 300,
+// };
+
+// changeUsername(newName)
 
 
 
-   
 
-// console.log(
-//   calcAverageCalories([
-//     { day: "monday", calories: 3010 },
-//     { day: "tuesday", calories: 3200 },
-//     { day: "wednesday", calories: 3120 },
-//     { day: "thursday", calories: 2900 },
-//     { day: "friday", calories: 3450 },
-//     { day: "saturday", calories: 3280 },
-//     { day: "sunday", calories: 3300 }
-//   ])
-// ); // 3180
+
+
+
+
+//   updatePlayTime(hours)  
+
+
+// getInfo() 
+
+
+
+
+
+
