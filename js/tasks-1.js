@@ -113,25 +113,75 @@
 // }
 
 // console.log(getProductPrice("Droid"));
+       const days = [
+    { day: "monday", calories: 3010 },
+    { day: "tuesday", calories: 3200 },
+    { day: "wednesday", calories: 3120 },
+    { day: "thursday", calories: 2900 },
+    { day: "friday", calories: 3450 },
+    { day: "saturday", calories: 3280 },
+    { day: "sunday", calories: 3300 }
+   ]
+     
+function calcAverageCalories(obj) {
+  const newArray = [];
+  let id = 1;
+  for (let item of array) {
+    item.calories += +calories;
+  
+    item.id = id;
+    id += 1; {   
+    }
+    newArray.push(item);
+    return newArray
+  }
 
+  
+  }
+
+ console.log(
+  calcAverageCalories([
+    { day: "monday", calories: 3010 },
+    { day: "tuesday", calories: 3200 },
+    { day: "wednesday", calories: 3120 },
+    { day: "thursday", calories: 2900 },
+    { day: "friday", calories: 3450 },
+    { day: "saturday", calories: 3280 },
+    { day: "sunday", calories: 3300 }
+  ])
+); // 3180
 
   
     
 
 
-const profile = {
-    username: "Jacob",
-  playTime: 300,
-};
-console.log(getinfo("username  has playTime active hours!"));
-  this.name = " Marco";
-  this.playTime = 20;
-  this.playTime.push(playTime)
 
-console.log(profile.getInfo()); 
-console.log(profile.changeUsername());
-console.log(profile.getInfo()); 
-console.log(profile.getInfo()); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
