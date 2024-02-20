@@ -128,28 +128,28 @@
 //   const values = Object.values(obj.calories);
 
   
-//  const days = [
-//     { day: "monday", calories: 3010 },
-//     { day: "tuesday", calories: 3200 },
-//     { day: "wednesday", calories: 3120 },
-//     { day: "thursday", calories: 2900 },
-//     { day: "friday", calories: 3450 },
-//     { day: "saturday", calories: 3280 },
-//     { day: "sunday", calories: 3300 }
-//   ]
+ const days = [
+    { day: "monday", calories: 3010 },
+    { day: "tuesday", calories: 3200 },
+    { day: "wednesday", calories: 3120 },
+    { day: "thursday", calories: 2900 },
+    { day: "friday", calories: 3450 },
+    { day: "saturday", calories: 3280 },
+    { day: "sunday", calories: 3300 }
+  ]
  
   
-// function calcAverageCalories(obj,calories) {
+function calcAverageCalories(obj,calories) {
  
-//   let total = 0;
-//   for (let item of obj) {
-//     if (item.calories === calories) {
+  let total = 0;
+  for (let item of obj) {
+    if (item.calories === calories) {
       
-//     }
-//    total += item.calories/7;
-//   }
-//   return total;
-// }
+    }
+   total += item.calories/7;
+  }
+  return total;
+}
   
 
 
