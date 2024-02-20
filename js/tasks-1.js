@@ -128,10 +128,28 @@
 //   const values = Object.values(obj.calories);
 
 //   console.log(values(obj.calories));
+//  const days = [
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//   ]
+ 
   
-function calcAverageCalories(arrey) {
-  
-}
+// function calcAverageCalories(days) {
+ 
+//   const key = Object.key(days);
+//   console.log(days[kay]);
+//  l
+//   for (let sum  of days) {
+//     sum += num;
+//   }
+//   return sum;
+//   }
+
 
 
 
@@ -154,45 +172,20 @@ function calcAverageCalories(arrey) {
 // ); // 3180
 
   
-    
+
+const fruits = [
+  { name: "apple", price: 200 },
+  { name: "orange", price: 300 },
+  { name: "grapes", price: 750 }
+];
+function uptFruits(array) {
+  const newArray = [];
+  let id = 1;
+  for (let fruit of array) {
+    fruit.price *= 0.8;
+    console.log(fruit.price );
+  }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
