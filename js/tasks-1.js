@@ -113,43 +113,45 @@
 // }
 
 // console.log(getProductPrice("Droid"));
-       const days = [
-    { day: "monday", calories: 3010 },
-    { day: "tuesday", calories: 3200 },
-    { day: "wednesday", calories: 3120 },
-    { day: "thursday", calories: 2900 },
-    { day: "friday", calories: 3450 },
-    { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 }
-   ]
+//        const days = [
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//    ]
      
-function calcAverageCalories(obj) {
-  const newArray = [];
-  let id = 1;
-  for (let item of array) {
-    item.calories += +calories;
+// function calcAverageCalories(obj) {
+//   let total = 0;
+//   const values = Object.values(obj.calories);
+
+//   console.log(values(obj.calories));
   
-    item.id = id;
-    id += 1; {   
-    }
-    newArray.push(item);
-    return newArray
-  }
+function calcAverageCalories(arrey) {
+  
+}
+
+
+
+
+
 
   
-  }
+//   }
 
- console.log(
-  calcAverageCalories([
-    { day: "monday", calories: 3010 },
-    { day: "tuesday", calories: 3200 },
-    { day: "wednesday", calories: 3120 },
-    { day: "thursday", calories: 2900 },
-    { day: "friday", calories: 3450 },
-    { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 }
-  ])
-); // 3180
+//  console.log(
+//   calcAverageCalories([
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//   ])
+// ); // 3180
 
   
     
