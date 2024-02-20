@@ -128,42 +128,42 @@
 //   const values = Object.values(obj.calories);
 
   
- const days = [
-    { day: "monday", calories: 3010 },
-    { day: "tuesday", calories: 3200 },
-    { day: "wednesday", calories: 3120 },
-    { day: "thursday", calories: 2900 },
-    { day: "friday", calories: 3450 },
-    { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 }
-  ]
+//  const days = [
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//   ]
  
   
-function calcAverageCalories(obj,calories) {
+// function calcAverageCalories(obj,calories) {
  
-  let total = 0;
-  for (let item of obj) {
-    if (item.calories === calories) {
+//   let total = 0;
+//   for (let item of obj) {
+//     if (item.calories === calories) {
       
-    }
-   total += item.calories/7;
-  }
-  return total;
-}
+//     }
+//    total += item.calories/7;
+//   }
+//   return total;
+// }
   
 
 
- console.log(
-  calcAverageCalories([
-    { day: "monday", calories: 3010 },
-    { day: "tuesday", calories: 3200 },
-    { day: "wednesday", calories: 3120 },
-    { day: "thursday", calories: 2900 },
-    { day: "friday", calories: 3450 },
-    { day: "saturday", calories: 3280 },
-    { day: "sunday", calories: 3300 }
-  ])
- ); // 3180
+//  console.log(
+//   calcAverageCalories([
+//     { day: "monday", calories: 3010 },
+//     { day: "tuesday", calories: 3200 },
+//     { day: "wednesday", calories: 3120 },
+//     { day: "thursday", calories: 2900 },
+//     { day: "friday", calories: 3450 },
+//     { day: "saturday", calories: 3280 },
+//     { day: "sunday", calories: 3300 }
+//   ])
+//  ); // 3180
 
   
 
@@ -187,3 +187,68 @@ function calcAverageCalories(obj,calories) {
 
 // console.log(uptFruits(fruits));
   
+
+
+// const obj = {
+// 	method(value) {
+// 		console.log(`I'm a method with ${value}!`);
+// 	}
+// };
+
+// obj.method(5); // "I'm a method with 5!"
+// obj.method(10); // "I'm a method with 10!"
+
+// 2)
+// const bookShelf = {
+//   books: ["The Last Kingdom", "Dream Guardian"],
+//   // Це метод об'єкта
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   // Це метод об'єкта
+//   addBook(bookName) {
+// 		return `Adding book ${bookName}`;
+//   },
+// };
+// // Виклики методів
+// console.log(bookShelf.getBooks()); // поверне "Returning all books"
+// console.log(bookShelf.addBook("New book 1")); // поверне "Adding book New book 1"
+// console.log(bookShelf.addBook("New book 2")); // поверне "Adding book New book 2"
+
+// 3)
+//   obj.atTheOldToad(){
+//  console.log (potions[]);
+// }
+// getPotions(){return "List of all available potions";};
+// addPotion(potionName){return Adding ${potionName}";}
+
+
+
+//  atTheOldToad.getPotions();// "List of all available potions"
+
+//  atTheOldToad.addPotion("Invisibility");//"Adding Invisibility"
+// atTheOldToad.addPotion("Power potion");//"Adding Power potion"
+4;
+
+
+const profile = {
+    username: "Jacob",
+  playTime: 300,
+};
+profile.changeUsername("Marco"){
+  return this.usernam = new Name;
+};
+
+
+
+
+
+
+
+console.log(profile.getInfo()); // "Jacob has 300 active hours!"
+
+profile.changeUsername("Marco");
+console.log(profile.getInfo()); // "Marco has 300 active hours!"
+
+profile.updatePlayTime(20);
+console.log(profile.getInfo()); // "Marco has 320 active hours!"
