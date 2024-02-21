@@ -1,13 +1,20 @@
 const profile = {
-  username: "Jacob",
-  playTime: 300
-}
+    username: "Jacob",
+    playTime: 300,
+    getInfo() {
+        `${profile.username}  has ${profil.playTime}  active hours!`
+    },
+};
+profile.getInfo();
+console.log(profile.getInfo());
+const newusername = "Marco";
 
-//  console.log(profile);
-let = getInfo() {
-    return (${username } has ${ playTime } active hours!);
-}
- console.log(getInfo());
-
-
-// console.log(profile.Info());
+     profile.changeUsername(){
+    profile.username = newusername;
+};
+console.log(profile.changeUsername());
+const newplayTime = 20;  
+profile.pdateplayTime(){
+    playTime + newplayTime;
+};  
+console.log();
