@@ -232,23 +232,42 @@
 
 
 const profile = {
-    username: "Jacob",
+  username: "Jacob",
   playTime: 300,
-};
-profile.changeUsername("Marco"){
-  return this.usernam = new Name;
-};
+},
+ const = getInfo()
+  
+
+  
+  
+ console.log(getInfo());
 
 
 
 
 
 
+//  info : Fnfo(){
+//     return ${this.username} has ${this.playTime} active hours!;
+//   },
+// };
 
-console.log(profile.getInfo()); // "Jacob has 300 active hours!"
 
-profile.changeUsername("Marco");
-console.log(profile.getInfo()); // "Marco has 300 active hours!"
+// console.log(profile.getInfo());
 
-profile.updatePlayTime(20);
-console.log(profile.getInfo()); // "Marco has 320 active hours!"
+// this.username = `Marco`;
+// profile.changeUsername("Marco");
+// return `Marco`;
+// console.log(profile.changeUsername);
+
+// profile.getInfo();
+// return `${this.username} has ${playTime} active hours!`;
+// console.log(profile.getInfo());
+
+// this.playTime = 20;
+// profile.updatePlayTime(20);
+// console.log(profile.updatePlayTime());
+
+// profile.getInfo();
+// return `${this.username} has ${playTime + this.playTime} active hours!`; 
+// console.log(profile.getInfo()); 

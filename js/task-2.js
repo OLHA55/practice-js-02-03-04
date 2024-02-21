@@ -1,18 +1,32 @@
-function getAllPropValues(propName) {
-  const products = [
-    { name: "Radar", price: 1300, quantity: 4 },
-    { name: "Scanner", price: 2700, quantity: 3 },
-    { name: "Droid", price: 400, quantity: 7 },
-    { name: "Grip", price: 1200, quantity: 9 },
-  ];
+// function getAllPropValues(propName) {
+//   const products = [
+//     { name: "Radar", price: 1300, quantity: 4 },
+//     { name: "Scanner", price: 2700, quantity: 3 },
+//     { name: "Droid", price: 400, quantity: 7 },
+//     { name: "Grip", price: 1200, quantity: 9 },
+//   ];
  
   
-    const key = Object.keys(products);
-  return key;
-}
+//     const key = Object.keys(products);
+//   return key;
+// }
 
 
- getAllPropValues("name");//["Radar", "Scanner", "Droid", "Grip"]
- getAllPropValues("quantity");// [4, 3, 7, 9]
- getAllPropValues("price");//[1300, 2700, 400, 1200]
- getAllPropValues("category");// []
+//  getAllPropValues("name");//["Radar", "Scanner", "Droid", "Grip"]
+//  getAllPropValues("quantity");// [4, 3, 7, 9]
+//  getAllPropValues("price");//[1300, 2700, 400, 1200]
+//  getAllPropValues("category");// []
+
+// const profile = {
+//   username: "Jacob",
+//   playTime: 300
+// }
+
+// //  console.log(profile);
+// let Info = function () {
+//   return "thet.username has thet.playTime active hours!"
+// }
+// // console.log(Info);
+
+
+// console.log(profile.Info());
