@@ -16,6 +16,4 @@
 // const newplayTime = 20;
 // profile.pdateplayTime(){
 //     playTime + newplayTime;
-// };
-// console.log();
-
+//
