@@ -78,24 +78,24 @@
 // ); // 0
 
 
-const profile = {
-    username: "Jacob",
-    playTime: 300,
-    getInfo() {
-         return `${this.username} has ${this.playTime} active hours!`
-    },
-};
- profile.getInfo();
-console.log(profile.getInfo());
+// const profile = {
+//     username: "Jacob",
+//     playTime: 300,
+//     getInfo() {
+//          return `${this.username} has ${this.playTime} active hours!`
+//     },
+// };
+//  profile.getInfo();
+// console.log(profile.getInfo());
 
-this.username = "Marco";
-profile.changeUsername();
+// this.username = "Marco";
+// profile.changeUsername();
 
-console.log(profile.getInfo());
+// console.log(profile.getInfo());
 
- this.playTime = this.playTime + 20; 
+//  this.playTime = this.playTime + 20; 
 
-console.log(profile.getInfo());
+// console.log(profile.getInfo());
 
  
 
