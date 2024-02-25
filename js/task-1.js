@@ -37,19 +37,19 @@
 
 // registerGuest("Mango", notify); // "Registering Mango!"// "Dear Mango, your room will be ready in 30 minutes"
 
-пример 3.
-function deliverPizza(pizzaName) {
-  return `Delivering ${pizzaName} pizza.`;
-}
+// пример 3.
+// function deliverPizza(pizzaName) {
+//   return `Delivering ${pizzaName} pizza.`;
+// }
 
-function makePizza(pizzaName) {
-  return `Pizza ${pizzaName} is being prepared, please wait...`;
-}
+// function makePizza(pizzaName) {
+//   return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
 
-function makeMessage(pizzaName,callback) {
-  return 
-}
+// function makeMessage(pizzaName,callback) {
+//   return 
+// }
 
 
-makeMessage("Royal Grand", makePizza);//"Pizza Royal Grand is being prepared, please wait..."
-makeMessage("Ultracheese", deliverPizza);//"Delivering Ultracheese pizza."
+// makeMessage("Royal Grand", makePizza);//"Pizza Royal Grand is being prepared, please wait..."
+// makeMessage("Ultracheese", deliverPizza);//"Delivering Ultracheese pizza."
