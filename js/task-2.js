@@ -93,20 +93,11 @@
 
 // console.log(profile.getInfo());
 
-//  this.playTime = this.playTime + 20; 
+//  this.playTime = this.playTime + 20;
 
 // console.log(profile.getInfo());
 
  
-
-
-
-
-
-
-
-
-
 
 
 // console.log(profile.getInfo()); // "Jacob has 300 active hours!"
@@ -116,3 +107,8 @@
 
 // profile.updatePlayTime(20);
 // console.log(profile.getInfo()); // "Marco has 320 active hours!"
+
+
+
+
+
