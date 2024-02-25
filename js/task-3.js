@@ -71,39 +71,43 @@
 // ])
 // );
 
-//   Задача 2.
-
-// console.log(users.friendName);
-// const allUsers = [
-//   {
-//     name: "Moore Hensley",
-//     friends: ["Sharron Pace"]
-//   },
-//   {
-//     name: "Sharlene Bush",
-//     friends: ["Briana Decker", "Sharron Pace"]
-//   },
-//   {
-//     name: "Ross Vazquez",
-//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"]
-//   },
-//   {
-//     name: "Elma Head",
-//     friends: ["Goldie Gentry", "Aisha Tran"]
-//   },
-//   {
-//     name: "Carey Barr",
-//     friends: ["Jordan Sampson", "Eddie Strong"]
-//   },
-//   {
-//     name: "Blackburn Dotson",
-//     friends: ["Jacklyn Lucas", "Linda Chapman"]
-//   },
-//   {
-//     name: "Sheree Anthony",
-//     friends: ["Goldie Gentry", "Briana Decker"]
-//   }
-// ];
+  //Задача 2.
+const getUserNames = users => users.map((users) => users.name);
+const getUsersWithFriend = (users, friendName) => users.map(users,friendName) => users.friends ;
+const allUsers = [
+  {
+    name: "Moore Hensley",
+    friends: ["Sharron Pace"]
+  },
+  {
+    name: "Sharlene Bush",
+    friends: ["Briana Decker", "Sharron Pace"]
+  },
+  {
+    name: "Ross Vazquez",
+    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"]
+  },
+  {
+    name: "Elma Head",
+    friends: ["Goldie Gentry", "Aisha Tran"]
+  },
+  {
+    name: "Carey Barr",
+    friends: ["Jordan Sampson", "Eddie Strong"]
+  },
+  {
+    name: "Blackburn Dotson",
+    friends: ["Jacklyn Lucas", "Linda Chapman"]
+  },
+  {
+    name: "Sheree Anthony",
+    friends: ["Goldie Gentry", "Briana Decker"]
+  }
+];
+//const getUserNames = (users, friendName) => users.map((users) => users.name);
+// const newUsers = allUsers.filter(item => item.name.includes(` ol`));
+// console.log(newUsers);
+// //console.log(users.friendName);
 
 
 // const getUsersWithFriend = (users, friendName) => 
