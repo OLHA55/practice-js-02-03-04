@@ -72,8 +72,7 @@
 // );
 
   //Задача 2.
-const getUserNames = users => users.map((users) => users.name);
-const getUsersWithFriend = (users, friendName) => users.map(users,friendName) => users.friends ;
+
 const allUsers = [
   {
     name: "Moore Hensley",
@@ -104,6 +103,12 @@ const allUsers = [
     friends: ["Goldie Gentry", "Briana Decker"]
   }
 ];
+
+const getUsersWithFriend = (users, friendName) => users.map(users, friendName) => users.name
+
+
+
+
 //const getUserNames = (users, friendName) => users.map((users) => users.name);
 // const newUsers = allUsers.filter(item => item.name.includes(` ol`));
 // console.log(newUsers);
