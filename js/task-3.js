@@ -104,62 +104,6 @@ const allUsers = [
   }
 ];
 
-const getUsersWithFriend = (users, friendName) => users.map(users, friendName) => users.name
+const getUsersWithFriend = (users, friendName) => { return users.filter(({friends}) => friends.includes(friendName));
+};
 
-
-
-
-//const getUserNames = (users, friendName) => users.map((users) => users.name);
-// const newUsers = allUsers.filter(item => item.name.includes(` ol`));
-// console.log(newUsers);
-// //console.log(users.friendName);
-
-
-// const getUsersWithFriend = (users, friendName) => 
-
-//   users.filter((user) => user.name.match(/console.log/));
-
-
-// const comments = [
-//    {
-//     id: 1,
-//     authorName: 'Глеб Фильтеровский',
-//     authorRating: 5404,
-//     text: 'Присоединяюсь, из трех функций понял только filter!'
-//   },
-//   {
-//     id: 2,
-//     authorName: 'Иван Редьюсов',
-//     authorRating: 348,
-//     text: 'Используйте console.log для отладки и сами все поймете!'
-//   },
-//   {
-//     id: 3,
-//     authorName: 'Анна Мэп',
-//     authorRating: 1892,
-//     text: 'Посмотрите гайды на YouTube, там все объясняется.'
-//   },
-//   {
-//     id: 4,
-//     authorName: 'Анна Мэп',
-//     authorRating: 1892,
-//     text: 'Кстати, использовать console.log — отличная идея!'
-//   },
-//   {
-//     id: 5,
-//     authorName: 'Иван Редьюсов',
-//     authorRating: 348,
-//     text: 'Если вы приложите ревью, нам будет проще вам помочь.'
-//   },
-// ];
-
-
-
-// comments.filter((comment) => comment.text.match(/console.log/));
-// import _ from 'lodash';
-// comments.map((comment) => comment.authorName);
-
-
-
-
-_.uniq(comments.map((comment) => comment.authorName));
